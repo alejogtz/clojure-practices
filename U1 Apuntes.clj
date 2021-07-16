@@ -17,6 +17,7 @@
 ;; Reduce
     ; Aplica la funcion dada sobre el argumento dado y sobre cada uno de los elementos de la coleccion
 
+;; ' apostrofe evita la evaluacion de los simbolos 
 
     ;; Secuencia  ==  (1 2 3 4 5 6)
     ;; Vector     ==  [1 2 3 4 5 6]

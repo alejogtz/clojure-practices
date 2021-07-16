@@ -49,7 +49,7 @@
 
 (defn los-defectivos-en
 	([] [])
-	([xs] (reduce ( fn [col x] (if (and (pos? x) (number? x) (es-número-defectivo? x)) (conj col x) col )) [] xs )))
+	([xs] (reduce ( fn [coll x] (if (and (pos? x) (number? x) (es-número-defectivo? x)) (conj coll x) coll )) [] xs )))
 
 (defn el-siguiente-número-defectivo 
 	[x]

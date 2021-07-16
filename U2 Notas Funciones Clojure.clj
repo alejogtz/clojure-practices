@@ -36,6 +36,7 @@ col: coleccion
 *		cons							*
 ******************************************
 ; Cons <<Se utiliza para insertar cosas>>
+
 (cons ele col)
 (cons 10 (vector))
 (cons 20(cons 10 (vector)))
@@ -47,6 +48,7 @@ col: coleccion
 *		conj							*
 ******************************************
 ; ---------------------------------------------< CONJ (oin) >-------------------------------------------------
+;; conj accepts any number of arguments to insert into a collection
 ( conjunto generico elemento )
 
 ( conj (vector) 10 )
